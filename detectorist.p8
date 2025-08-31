@@ -356,12 +356,13 @@ function _update()
       end
     end
   
+  	 if (hdnitms == 0) state=-1
+  	   
     -- dig
     if btnp(❎) then
       dig(dposx,dposy)
     end 
     
-    if (hdnitms == 0) state=-1
   end
 end
 
